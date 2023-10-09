@@ -14,7 +14,7 @@ import {StyleSheet,Text,View,TextInput,TouchableOpacity,Alert,} from "react-nati
         Alert.alert("Plzz fill all the fields");
       } else {
         Alert.alert(`Thank You ${name}`);
-        navigation.navigate("Home");
+        navigation.navigate("Contact");
       }
     };
   
@@ -54,7 +54,7 @@ import {StyleSheet,Text,View,TextInput,TouchableOpacity,Alert,} from "react-nati
         
   
         <View style={styles.inputContainer}>
-          <Text style={styles.labels}> How can we help you? </Text>
+          <Text style={styles.labels}> Message </Text>
           <TextInput
             style={[styles.inputStyle, styles.multilineStyle]}
             placeholder={"Message"}
